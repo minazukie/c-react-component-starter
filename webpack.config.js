@@ -14,5 +14,10 @@ module.exports = {
     externals: {
         react: "react",
         antd: "antd",
+        axios:"axios",
+        "core-js": "core-js",
+        "react-redux": "react-redux",
+        "@reduxjs/toolkit": "@reduxjs/toolkit",
+        "@ant-design/icons": "@ant-design/icons",
     },
 };
