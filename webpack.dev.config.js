@@ -24,4 +24,10 @@ module.exports = {
         hot: true,
         port: 9000,
     },
+    resolve: {
+        ...baseConfig.resolve,
+        alias: {
+            "react-dom": "@hot-loader/react-dom",
+        },
+    },
 };
