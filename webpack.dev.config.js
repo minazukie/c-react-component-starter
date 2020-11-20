@@ -22,6 +22,6 @@ module.exports = {
         contentBase: path.join(__dirname, "public"),
         compress: true,
         hot: true,
-        port: 9001,
+        port: 9000,
     },
 };
