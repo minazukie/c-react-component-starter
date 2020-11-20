@@ -10,7 +10,7 @@ const MainComponent = () => {
             title="Demo"
             style={{
                 margin: "20px auto",
-                width: 600,
+                width: 800,
                 borderRadius: 4,
                 boxShadow: "rgba(91, 100, 118, 0.21) 0px 0px 25px",
             }}
