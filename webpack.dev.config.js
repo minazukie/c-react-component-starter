@@ -22,7 +22,8 @@ module.exports = {
         contentBase: path.join(__dirname, "public"),
         compress: true,
         hot: true,
-        port: 9000,
+        open: true,
+        port: 9009,
     },
     resolve: {
         ...baseConfig.resolve,
