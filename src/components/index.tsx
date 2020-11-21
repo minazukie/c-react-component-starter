@@ -1,19 +1,20 @@
 import "./index.less";
 import React from "react";
-import { Button } from "antd";
+import { Button, Form } from "antd";
 import { LinkOutlined } from "@ant-design/icons";
+import { FormInstance } from "antd/lib/form";
 
 interface ComponentProp {
-    form: any;
+    form: FormInstance<any>;
 }
 
 const Component: React.FC<ComponentProp> = ({ form }) => {
     return (
-        <div>
+        <Form form={form}>
             <Button type="primary" icon={<LinkOutlined />}>
                 Hello
             </Button>
-        </div>
+        </Form>
     );
 };
 
