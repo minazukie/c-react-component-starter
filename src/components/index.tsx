@@ -7,14 +7,15 @@ import { FormInstance } from "antd/lib/form";
 
 interface ComponentProp {
     form: FormInstance;
+    initialValues?: any;
     onFinish: (value: any) => void;
     onFinishFailed?: (err: any) => void;
     configPackages?: any[];
 }
 
-const Component: React.FC<ComponentProp> = ({ form, onFinish, onFinishFailed }) => {
+const Component: React.FC<ComponentProp> = ({ form, initialValues, onFinish, onFinishFailed }) => {
     return (
-        <Form form={form} onFinish={onFinish} onFinishFailed={onFinishFailed}>
+        <Form initialValues={initialValues} form={form} onFinish={onFinish} onFinishFailed={onFinishFailed}>
             <Button type="primary" icon={<LinkOutlined />}>
                 Hello
             </Button>
