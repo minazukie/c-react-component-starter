@@ -8,6 +8,7 @@ import { FormInstance } from "antd/lib/form";
 interface ComponentProp {
     form: FormInstance;
     initialValues?: any;
+    metadata?: any;
     onFinish: (value: any) => void;
     onFinishFailed?: (err: any) => void;
     configPackages?: any[];
