@@ -57,6 +57,7 @@ module.exports = {
         react: "react",
         antd: "antd",
         axios:"axios",
+        ahooks: "ahooks",
         "core-js": "core-js",
         "react-redux": "react-redux",
         "@reduxjs/toolkit": "@reduxjs/toolkit",

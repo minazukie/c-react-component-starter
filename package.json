@@ -37,6 +37,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@reduxjs/toolkit": "^1.4.0",
+    "ahooks": "^2.9.2",
     "antd": "^4.8.4",
     "axios": "^0.21.0",
     "core-js": "^3.7.0",
